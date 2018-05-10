@@ -1,0 +1,8 @@
+C:\Users\TZCS-SOFT002\Desktop\usefulExtensionMethodTest\usefulExtensionMethodTest\bin\Release\usefulExtensionMethodTest.exe.config
+C:\Users\TZCS-SOFT002\Desktop\usefulExtensionMethodTest\usefulExtensionMethodTest\bin\Release\usefulExtensionMethodTest.exe
+C:\Users\TZCS-SOFT002\Desktop\usefulExtensionMethodTest\usefulExtensionMethodTest\bin\Release\usefulExtensionMethodTest.pdb
+C:\Users\TZCS-SOFT002\Desktop\usefulExtensionMethodTest\usefulExtensionMethodTest\bin\Release\usefulExtensionMethod.dll
+C:\Users\TZCS-SOFT002\Desktop\usefulExtensionMethodTest\usefulExtensionMethodTest\bin\Release\usefulExtensionMethod.pdb
+C:\Users\TZCS-SOFT002\Desktop\usefulExtensionMethodTest\usefulExtensionMethodTest\obj\Release\usefulExtensionMethodTest.csprojResolveAssemblyReference.cache
+C:\Users\TZCS-SOFT002\Desktop\usefulExtensionMethodTest\usefulExtensionMethodTest\obj\Release\usefulExtensionMethodTest.exe
+C:\Users\TZCS-SOFT002\Desktop\usefulExtensionMethodTest\usefulExtensionMethodTest\obj\Release\usefulExtensionMethodTest.pdb

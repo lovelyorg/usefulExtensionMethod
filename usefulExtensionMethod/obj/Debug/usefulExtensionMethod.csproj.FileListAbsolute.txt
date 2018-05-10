@@ -1,0 +1,5 @@
+C:\Users\TZCS-SOFT002\Desktop\usefulExtensionMethodTest\usefulExtensionMethod\bin\Debug\usefulExtensionMethod.dll
+C:\Users\TZCS-SOFT002\Desktop\usefulExtensionMethodTest\usefulExtensionMethod\bin\Debug\usefulExtensionMethod.pdb
+C:\Users\TZCS-SOFT002\Desktop\usefulExtensionMethodTest\usefulExtensionMethod\obj\Debug\usefulExtensionMethod.csprojResolveAssemblyReference.cache
+C:\Users\TZCS-SOFT002\Desktop\usefulExtensionMethodTest\usefulExtensionMethod\obj\Debug\usefulExtensionMethod.dll
+C:\Users\TZCS-SOFT002\Desktop\usefulExtensionMethodTest\usefulExtensionMethod\obj\Debug\usefulExtensionMethod.pdb
