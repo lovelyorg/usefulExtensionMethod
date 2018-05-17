@@ -50,5 +50,26 @@ namespace System
                 return result;
             return default(DateTime);
         }
+        
+        /// <summary>
+        /// 按照长度n将字符串分割成数组
+        /// </summary>
+        /// <param name="s"></param>
+        /// <param name="n"></param>
+        /// <returns></returns>
+        public static IEnumerable<string> split(this string s, int n)
+        {
+            var lastGroupItemLength = s.Length % n;
+            var groupLength = s.Length / n + (lastGroupItemLength == 0 ? 0 : 1);
+
+            var result = new List<string>();
+            int i;
+            for (i = 0; i < groupLength - 1; i++)
+            {
+                result.Add(s.Substring(i * n, n));
+            }
+            result.Add(s.Substring(i * n, lastGroupItemLength != 0 ? lastGroupItemLength : n));
+            return result;
+        }
     }
 }
