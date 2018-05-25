@@ -15,7 +15,7 @@ namespace System
             return source != null && source.Any();
         }
 
-        public static string join<T>(this IEnumerable<T> source, string joiner)
+        public static string join(this IEnumerable<string> source, string joiner)
         {
             var result = string.Empty;
             foreach (var item in source)
