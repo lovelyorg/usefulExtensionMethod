@@ -21,5 +21,11 @@
             }
             return true;
         }
+        
+        public static string timestamp(this DateTime t)
+        {
+            var result = (t.ToUniversalTime().Ticks - 621355968000000000) / 10000;
+            return result.ToString();
+        }
     }
 }
