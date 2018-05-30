@@ -6,16 +6,15 @@ namespace test
     {
         static void Main(string[] args)
         {
-
-            var strAAA = "AAA";
-            if (strAAA.In("AAA", "BBB"))
-            {
-                Console.WriteLine("ok");
-            }
-            else
-            {
-                Console.WriteLine("-------error-------");
-            }
+            if (1.In(1, 2))
+                if (5.NotIn(new int[] { 1, 2 }))
+                {
+                    Console.WriteLine("ok");
+                }
+                else
+                {
+                    Console.WriteLine("-------error-------");
+                }
 
             Console.Read();
         }

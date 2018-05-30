@@ -9,3 +9,11 @@ C:\Users\TZCS-SOFT002\Desktop\usefulExtensionMethodTest\usefulExtensionMethodTes
 C:\Users\TZCS-SOFT002\Desktop\usefulExtensionMethod\test\bin\Release\usefulExtensionMethodTest.exe.config
 C:\Users\TZCS-SOFT002\Desktop\usefulExtensionMethod\test\obj\Release\usefulExtensionMethodTest.exe
 C:\Users\TZCS-SOFT002\Desktop\usefulExtensionMethod\test\obj\Release\usefulExtensionMethodTest.pdb
+E:\小工具\usefulExtensionMethod\test\bin\Release\usefulExtensionMethodTest.exe.config
+E:\小工具\usefulExtensionMethod\test\obj\Release\usefulExtensionMethodTest.exe
+E:\小工具\usefulExtensionMethod\test\obj\Release\usefulExtensionMethodTest.pdb
+E:\小工具\usefulExtensionMethod\test\bin\Release\usefulExtensionMethodTest.exe
+E:\小工具\usefulExtensionMethod\test\bin\Release\usefulExtensionMethodTest.pdb
+E:\小工具\usefulExtensionMethod\test\bin\Release\usefulExtensionMethod.dll
+E:\小工具\usefulExtensionMethod\test\bin\Release\usefulExtensionMethod.pdb
+E:\小工具\usefulExtensionMethod\test\obj\Release\test.csprojResolveAssemblyReference.cache

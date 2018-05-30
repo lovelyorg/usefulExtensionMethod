@@ -1,0 +1,8 @@
+E:\小工具\usefulExtensionMethod\test\bin\Debug\usefulExtensionMethodTest.exe.config
+E:\小工具\usefulExtensionMethod\test\obj\Debug\usefulExtensionMethodTest.exe
+E:\小工具\usefulExtensionMethod\test\obj\Debug\usefulExtensionMethodTest.pdb
+E:\小工具\usefulExtensionMethod\test\bin\Debug\usefulExtensionMethodTest.exe
+E:\小工具\usefulExtensionMethod\test\bin\Debug\usefulExtensionMethodTest.pdb
+E:\小工具\usefulExtensionMethod\test\bin\Debug\usefulExtensionMethod.dll
+E:\小工具\usefulExtensionMethod\test\bin\Debug\usefulExtensionMethod.pdb
+E:\小工具\usefulExtensionMethod\test\obj\Debug\test.csprojResolveAssemblyReference.cache

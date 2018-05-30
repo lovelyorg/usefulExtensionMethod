@@ -2,7 +2,7 @@
 {
     public static class _T
     {
-        public static bool In<T>(this T source, params T[] para)
+        public static bool In<T>(this T source, params T[] para) where T : struct
         {
             foreach (var m in para)
             {
@@ -12,7 +12,7 @@
             return false;
         }
 
-        public static bool NotIn<T>(this T source, params T[] para)
+        public static bool NotIn(this int source, int[] para)
         {
             foreach (var m in para)
             {
@@ -20,12 +20,6 @@
                     return false;
             }
             return true;
-        }
-        
-        public static string timestamp(this DateTime t)
-        {
-            var result = (t.ToUniversalTime().Ticks - 621355968000000000) / 10000;
-            return result.ToString();
         }
     }
 }

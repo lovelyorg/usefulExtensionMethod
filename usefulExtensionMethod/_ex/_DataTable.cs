@@ -1,6 +1,4 @@
-﻿using System.Data;
-
-namespace System
+﻿namespace System.Data
 {
     public static class _DataTable
     {
@@ -25,9 +23,12 @@ namespace System
             }
         }
 
-        public static string getValue(this DataRow source, string p)
+        public static string getValue(this DataRow source, string columName)
         {
-            return source[p].ToString().Trim();
+            var temp = source[columName];
+            if (temp != null)
+                return temp.ToString().Trim();
+            return string.Empty;
         }
     }
 }

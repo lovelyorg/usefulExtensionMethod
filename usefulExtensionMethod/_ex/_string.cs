@@ -1,17 +1,13 @@
-﻿using System.Text.RegularExpressions;
+﻿using System.Collections.Generic;
+using System.Text.RegularExpressions;
 
 namespace System
 {
-    public static class _String
+    public static class _string
     {
         public static bool isEmpty(this string source)
         {
             return string.IsNullOrWhiteSpace(source);
-        }
-
-        public static bool isNumber(this string value)
-        {
-            return Regex.IsMatch(value, @"^[+-]?\d*$");
         }
 
         public static bool isNotEmpty(this string source)
@@ -19,7 +15,17 @@ namespace System
             return !string.IsNullOrWhiteSpace(source);
         }
 
-        public static int toInt(this string source, int defaultValue = -1)
+        public static bool isNumber(this string value)
+        {
+            return Regex.IsMatch(value, @"^[+-]?\d*$");
+        }
+
+        public static int toInt(this string source)
+        {
+            return Convert.ToInt32(source);
+        }
+
+        public static int tryToInt(this string source, int defaultValue = default(int))
         {
             int result;
             if (int.TryParse(source, out result))
@@ -27,7 +33,25 @@ namespace System
             return defaultValue;
         }
 
-        public static double toDouble(this string source, double defaultValue = -1)
+        public static Int64 toInt64(this string source)
+        {
+            return Convert.ToInt64(source);
+        }
+
+        public static Int64 tryToInt64(this string source, Int64 defaultValue = default(Int64))
+        {
+            Int64 result;
+            if (long.TryParse(source, out result))
+                return result;
+            return defaultValue;
+        }
+
+        public static double toDouble(this string source)
+        {
+            return Convert.ToDouble(source);
+        }
+
+        public static double tryToDouble(this string source, double defaultValue = default(double))
         {
             double result;
             if (double.TryParse(source, out result))
@@ -35,7 +59,12 @@ namespace System
             return defaultValue;
         }
 
-        public static decimal toDecimal(this string source, decimal defaultValue = -1)
+        public static decimal toDecimal(this string source)
+        {
+            return Convert.ToDecimal(source);
+        }
+
+        public static decimal tryToDecimal(this string source, decimal defaultValue = default(decimal))
         {
             decimal result;
             if (decimal.TryParse(source, out result))
@@ -43,16 +72,21 @@ namespace System
             return defaultValue;
         }
 
-        public static DateTime toDate(this string source, DateTime defaultValue = default(DateTime))
+        public static DateTime toDate(this string source)
+        {
+            return Convert.ToDateTime(source);
+        }
+
+        public static DateTime tryToDate(this string source, DateTime defaultValue = default(DateTime))
         {
             DateTime result;
             if (DateTime.TryParse(source, out result))
                 return result;
-            return default(DateTime);
+            return defaultValue;
         }
-        
+
         /// <summary>
-        /// 按照长度n将字符串分割成数组
+        /// 将字符串按照长度n分割成数组
         /// </summary>
         /// <param name="s"></param>
         /// <param name="n"></param>

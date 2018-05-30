@@ -3,3 +3,7 @@ C:\Users\TZCS-SOFT002\Desktop\usefulExtensionMethodTest\usefulExtensionMethod\bi
 C:\Users\TZCS-SOFT002\Desktop\usefulExtensionMethodTest\usefulExtensionMethod\obj\Debug\usefulExtensionMethod.csprojResolveAssemblyReference.cache
 C:\Users\TZCS-SOFT002\Desktop\usefulExtensionMethodTest\usefulExtensionMethod\obj\Debug\usefulExtensionMethod.dll
 C:\Users\TZCS-SOFT002\Desktop\usefulExtensionMethodTest\usefulExtensionMethod\obj\Debug\usefulExtensionMethod.pdb
+E:\小工具\usefulExtensionMethod\usefulExtensionMethod\bin\Debug\usefulExtensionMethod.dll
+E:\小工具\usefulExtensionMethod\usefulExtensionMethod\bin\Debug\usefulExtensionMethod.pdb
+E:\小工具\usefulExtensionMethod\usefulExtensionMethod\obj\Debug\usefulExtensionMethod.dll
+E:\小工具\usefulExtensionMethod\usefulExtensionMethod\obj\Debug\usefulExtensionMethod.pdb

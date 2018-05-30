@@ -1,7 +1,5 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-
-namespace System
+﻿using System.Linq;
+namespace System.Collections.Generic
 {
     public static class _IEnumerable
     {
